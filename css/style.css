@@ -171,14 +171,28 @@ hr {
 	}
 
 	.main-article {
+		display: flex;
+		flex-direction: column;
+		flex: 2;
 		width: 60%;
 		border-radius: 0.6rem;
 		margin: 0;
+
 	}
+	.main.module .container {
+        display: flex;
+        gap: 40px;
+    }
 
 	.main-sidebar {
+		display: flex;
+		flex-direction: column;
 		width: 40%;
 		border-radius: 0.6rem;
-		margin: 0;
+		flex: 1;
+        margin-top: 0;
+        border-top: none;
+        border-left: 1px solid #ddd;
+        padding-left: 20px;
 	}
 }
